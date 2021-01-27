@@ -1,15 +1,25 @@
 class Animal {
-  constructor(x, y, image){
+  constructor(x, y, angle, image){
     this.x = x;
     this.y = y;
     this.image = image;
-    this.angle = 0;
+    this.angle = angle;
+
+    this.found = false;
+    this.rotationSpeed = 0.5;
   }
 
+// this is the update which you call to display the image
   update() {
     this.display();
+
+
+    if (this.found) {
+      this.angle += this.rotationSpeed;
+    }
   }
 
+// this is the information for the animal images
   display(){
 
     push();
@@ -21,6 +31,7 @@ class Animal {
 
   }
 
+//this overlay function is there to allow you to click on the image of the sausage dog
 overlap(x, y) {
 
   if  ((x > this.x - this.image.width / 2) &&
@@ -32,7 +43,9 @@ overlap(x, y) {
       else {
        return false;
       }
-
-
   }
+
+
+
+
   }
