@@ -1,11 +1,11 @@
 "use strict";
 
 /**
-Title of Project
-Author Name
+Slamina
+NIco Brinton
 
-This is a template. You must fill in the title,
-author, and this description to match your project!
+this is a game where you need to try and guess the animal
+that is being said to you but ttthe twist is that the animal is being said backwards
 */
 
 
