@@ -18,6 +18,11 @@ there are some minor bugs, like you can press the r key whenever you want.
 
 
 i will try to fix if i get the time throughout the week
+
+this project also uses some code from:
+
+Darius Kazemi's corpora project:
+https://github.com/dariusk/corpora/
 */
 
 
