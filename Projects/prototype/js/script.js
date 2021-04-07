@@ -5,6 +5,7 @@ The Myth Of Sisyphus
 Nico Brinton
 
 This is the prototytpe for my final project in class Cart 263
+this just shows you the final idea of what I would want to do with the idea of everything
 */
 
 /**
@@ -111,14 +112,10 @@ function perlinNoiseCircle(){
 
   zoff += zoffChange;
 
-// changes the backgrounds colour randomly if you click on the screen
+
   if (mouseIsPressed){
 
-bgr = random(0,255);
-bgg = random(0,255);
-bgb = random(0,255);
 
-a = 50;
   }
 
 }
