@@ -4,8 +4,17 @@
 The Myth Of Sisyphus
 Nico Brinton
 
-This is the prototytpe for my final project in class Cart 263
-this just shows you the final idea of what I would want to do with the idea of everything
+This is the final project for project 03. It is a simulation / game based of the myth of Sisyphus
+the game itself is where you say a word into the computer that changes each round so you need to change
+the word you need to pronounce. As you say the word it will climb to the top of the screen, and once you get to the top
+itt resets you at the bottom. You only have two lives which is a reference to Sisyphus. each time you get the gear to the
+top of the screen and it resets the timer will reset but with one second less. So it will only get harder and harder
+
+
+that is pretty mcuh it, one shortcut in case you cant pronounce the word you can always click on teh
+LEFT ARROW key in order to move it faster
+
+IMages were all royalty free IMages
 */
 
 /**
